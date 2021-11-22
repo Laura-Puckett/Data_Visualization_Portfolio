@@ -5,17 +5,10 @@
 ### [Link to the interactive app](https://laurapuckett.shinyapps.io/Pacific_NW_Stream_Temperature_during_2021_Heatwave/)
 
 
-| ![](https://github.com/Laura-Puckett/LauraPuckett_Portfolio/blob/main/Screen%20Shot%202021-11-21%20at%2010.43.51%20PM.png) | 
+| ![](https://github.com/Laura-Puckett/Stream_Temperature/blob/main/screenshots/Screen%20Recording.gif) | 
 |:--:| 
-| An interactive map containing clickable USGS station locations|
+| Demo of Shiny app|
 
-| ![](https://github.com/Laura-Puckett/LauraPuckett_Portfolio/blob/main/Screen%20Shot%202021-11-21%20at%2010.32.13%20PM.png) | 
-|:--:| 
-| A plot of data for all sites, with the selected USGS station highlighted in black. |
-
-| ![](https://github.com/Laura-Puckett/LauraPuckett_Portfolio/blob/main/Screen%20Shot%202021-11-21%20at%2010.32.33%20PM.png) | 
-|:--:| 
-| Data from the selected USGS station plotted by year with major heatwave years highlighted. |
 
 ## [Comparing spaceborne LiDAR datasets](https://github.com/Laura-Puckett/lidar_comparisons)
 This workflow is intended for comparing gedi, icesat-2, or both against airborne lidar data for an area. Because Icesat-2 and GEDI can't be compared directly against each other (due to mismatch in size/shape of footprints), comparing them against airborne lidar separately is used here to infer how similar they are to each other. The workflow is currently set up to run on a computing cluster, because building the geometries that represent each spaceborne lidar footprint and then extracting the intersecting airborne lidar values is computationally intensive. Processes are automated to run from a single bash script. 

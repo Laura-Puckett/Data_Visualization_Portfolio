@@ -17,7 +17,7 @@ Interactive App [link](https://laurapuckett.shinyapps.io/Pacific_NW_Stream_Tempe
 ## Comparing spaceborne LiDAR datasets 
 Code repository [link](https://github.com/Laura-Puckett/lidar_comparisons)
 
-This workflow is intended for comparing gedi, icesat-2, or both against airborne lidar data for an area. The workflow is currently set up to run on a computing cluster, because building the geometries that represent each spaceborne lidar footprint and then extracting the intersecting airborne lidar values is computationally intensive. Processes are automated to run from a single bash script.
+This workflow is intended for comparing GEDI, ICESat-2, or both against airborne LiDAR data for an area. Steps include downloading data, building geometries for each spaceborne lidar footprint, extracting the intersecting airborne LiDAR values, and plotting results.  The workflow was built to run on a computing cluster, because the process is computationally intensive for datasets of this size. 
 
 | ![](https://github.com/Laura-Puckett/lidar_comparisons/blob/main/gedi_icesat2_als_comparison.png) | 
 |:--:| 

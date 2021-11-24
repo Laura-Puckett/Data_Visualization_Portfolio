@@ -2,7 +2,9 @@
 
 ## Pacific Northwest Stream Temperature Shiny App
 
-A major heatwave struck the Pacific Northwest in June 2021, breaking many temperature records. This not only made it difficult for people to stay cool, it also caused issues for fish. Stream temperatures in many locations within the Colombia River Basin grew warmer than 68F - a critical threshold for salmon. At stream temperatures over this threshold, salmon experience great stress and are more likely to contract diseases or die. Heat-related salmon mortality was recorded in the region as a result of the 2015 and 2021 heat waves. 
+A major heatwave struck the Pacific Northwest in June 2021, breaking many temperature records. This not only made it difficult for people to stay cool, it also caused issues for fish. Stream temperatures in many locations within the Colombia River Basin grew warmer than 68F - a critical threshold over which salmon experience great stress and are more likely to contract diseases or die. Heat-related salmon mortality was recorded in the region as a result of the 2015 and 2021 heat waves. 
+
+In this project, I displayed stream temperatures from USGS stations within the Pacific Northwest in an interactive app. 
 
 Interactive App [link](https://laurapuckett.shinyapps.io/Pacific_NW_Stream_Temperature_during_2021_Heatwave/) and Code Repository [link](https://github.com/Laura-Puckett/Stream_Temperature)
 
@@ -15,7 +17,7 @@ Interactive App [link](https://laurapuckett.shinyapps.io/Pacific_NW_Stream_Tempe
 ## Comparing spaceborne LiDAR datasets 
 Code repository [link](https://github.com/Laura-Puckett/lidar_comparisons)
 
-This workflow is intended for comparing gedi, icesat-2, or both against airborne lidar data for an area. Because Icesat-2 and GEDI can't be compared directly against each other (due to mismatch in size/shape of footprints), comparing them against airborne lidar separately is used here to infer how similar they are to each other. The workflow is currently set up to run on a computing cluster, because building the geometries that represent each spaceborne lidar footprint and then extracting the intersecting airborne lidar values is computationally intensive. Processes are automated to run from a single bash script.
+This workflow is intended for comparing gedi, icesat-2, or both against airborne lidar data for an area. The workflow is currently set up to run on a computing cluster, because building the geometries that represent each spaceborne lidar footprint and then extracting the intersecting airborne lidar values is computationally intensive. Processes are automated to run from a single bash script.
 
 | ![](https://github.com/Laura-Puckett/lidar_comparisons/blob/main/gedi_icesat2_als_comparison.png) | 
 |:--:| 

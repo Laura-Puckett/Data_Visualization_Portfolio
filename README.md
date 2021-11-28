@@ -1,5 +1,3 @@
-# Data_Visualization_Portfolio
-
 ## Pacific Northwest Stream Temperature Shiny App
 
 A major heatwave struck the Pacific Northwest in June 2021, and stream temperatures in many locations grew warmer than 68F - a critical threshold over which salmon experience great stress and are more likely to contract diseases or die. Heat-related salmon mortality was recorded in the region as a result of the 2015 and 2021 heat waves. 

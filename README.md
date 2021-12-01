@@ -42,6 +42,6 @@ A simple project to download, organize, and interactively view NEON data.
 
 This workflow is intended for comparing GEDI, ICESat-2, or both against airborne LiDAR data for an area. Steps include downloading data, building geometries    for each spaceborne lidar footprint, extracting the intersecting airborne LiDAR values, and plotting results.  The workflow was built to run on a computing cluster, because the process is computationally intensive.
   
-<img src="https://github.com/Laura-Puckett/lidar_comparisons/blob/main/gedi_icesat2_als_comparison.png" width="600px" style="padding: 30px"/>
+<img src="https://github.com/Laura-Puckett/lidar_comparisons/blob/NAU/gedi_icesat2_als_comparison.png" width="600px" style="padding: 30px"/>
 
 *Example output comparing GEDI and Icesat-2 for a site in the Sierra Nevada Mountains* 
